@@ -22,7 +22,7 @@ namespace EvenOrOddNumber
                     {
                         Console.WriteLine("To jest liczba nieparzysta");
                     }
-                        Console.WriteLine("Czy chcesz sprawdzić kolejną liczbę? Wpisz 'tak' lub 'nie'");
+                    Console.WriteLine("Czy chcesz sprawdzić kolejną liczbę? Wpisz 'tak' lub 'nie'");
                     string answer = Console.ReadLine();
                     if (answer == "tak")
                     {
@@ -34,16 +34,11 @@ namespace EvenOrOddNumber
                         break;
                     }
                     else if (answer != "nie")
-                        Console.WriteLine("Nie rozumiem decyzji, wprowadz jeszcze raz dycyzję");
-                     
-
-                    else if (answer != "tak")
-                        Console.WriteLine("Nie rozumiem decyzji 2, wprowadz jeszcze raz dycyzję");
-                  
-                                   }
-                    else
+                        Console.WriteLine("Nie rozumiem decyzji, wprowadz jeszcze raz decyzję");
+                }
+                else
                 {
-                        Console.WriteLine("Wprowdz cyfrę");
+                    Console.WriteLine("Wprowdz cyfrę");
                 }
             }
         }
